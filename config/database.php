@@ -1,4 +1,1 @@
-<?php 
-
-
-echo "Shiiiit";
+database config here
