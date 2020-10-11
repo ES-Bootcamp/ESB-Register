@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Sign in to your account</h5>
                     <p class="card-text">Here, you can login to our magic system!</p>
-                    <a href="/login.php" class="btn btn-primary">Login</a>
+                    <a href="login.php" class="btn btn-primary">Login</a>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 <div class="card-body">
                     <h5 class="card-title">New? Register here!</h5>
                     <p class="card-text">Here, you can Register as a new user in our magic system!</p>
-                    <a href="/register.php" class="btn btn-primary">Sign up</a>
+                    <a href="register.php" class="btn btn-primary">Sign up</a>
                 </div>
             </div>
         </div>
