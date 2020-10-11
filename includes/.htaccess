@@ -1,0 +1,3 @@
+Options -Indexes
+Deny from all
+# ErrorDocument 403 "Nothing to show here. go away"
