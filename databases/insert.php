@@ -35,7 +35,6 @@ if(isset($argv[1])){
         echo "\e[32mSetting values...\n";
         
         if(isset($query)){
-
             $user = "user_";
             $password = password_hash("abcd1234", PASSWORD_DEFAULT);
             $email = "mmm@mmm.com";
