@@ -15,7 +15,10 @@ require 'includes/header.php'; ?>
                                 <span class="fa fa-user"></span>
                                 Choose a username
                             </label>
-                            <input type="text" class="form-control" id="user-login-input" placeholder="Username" name="user">
+                            <input type="text" class="form-control" id="user-login-input" placeholder="Username" name="user" value="<?php 
+                            if(isset($_SESSION['username_value'])) {
+                                echo $_SESSION['username_value'];
+                            } ?>">
                         </div>
                     </div>
                 </div>
