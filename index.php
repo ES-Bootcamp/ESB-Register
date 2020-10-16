@@ -20,7 +20,7 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="card-header">
-                    <span class="fa fa-plus"></span>&nbsp;&nbsp;Sign in
+                    <span class="fa fa-plus"></span>&nbsp;&nbsp;Sign up
                 </div>  
                 <div class="card-body">
                     <h5 class="card-title">New? Register here!</h5>

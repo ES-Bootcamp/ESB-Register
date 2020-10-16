@@ -1,10 +1,10 @@
 <?php 
 try {
 
-    $dsn = 'mysql:host=localhost;dbname=ESBRegister;charset=utf8';
+    $dsn = 'mysql:host=localhost;dbname=ESBRegister;port=3308;charset=utf8';
 
     $db_user = 'root';
-    $db_pass = '';
+    $db_pass = 'root';
 
     $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,

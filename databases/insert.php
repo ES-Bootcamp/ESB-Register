@@ -7,9 +7,9 @@ if(!isset($argv[1])){
 /**
  * PDO Connection data
  */
-$dsn = 'mysql:host=localhost;dbname=ESBRegister';
+$dsn = 'mysql:host=localhost;dbname=esbregister;port=3308';
 $user = 'root';
-$pass = '';
+$pass = 'root';
 $options = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,

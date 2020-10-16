@@ -61,6 +61,28 @@ require 'includes/header.php'; ?>
                         ?>
                     </div>
                 </div>
+                <div class="row mt-3">
+                    <div class="col">
+                    <?php 
+                        if(isset($_SESSION['succes_register'])):
+                            
+                        ?>
+                        <div class="alert alert-success mt-3" role="alert">
+                        <?php echo "Registration has been confirmed, you can login now" ?>
+                        </div>
+                        <?php 
+                                
+                        endif;
+                        if(isset($_SESSION['redirected_from_dashboard'])){
+                        ?>
+                         <div class="alert alert-danger mt-3" role="alert">
+                            Please login first!
+                        </div>
+                        <?php
+                        }
+                        ?>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
