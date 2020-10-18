@@ -60,15 +60,17 @@
                 <?php 
                // $pass=$_POST["password"];
                 //$rpass=$_POST["rpassword"];
-           
-                        if($_POST["password"]!=$_POST["rpassword"]){
-                        ?>
-                         <div class="alert alert-danger mt-3" role="alert">
-                            the password repeat is not equel 
-                        </div>
-                        <?php
-                        }
-                        ?>
+                  
+                            ?>
+                             <div class="alert alert-danger mt-3" role="alert">
+                                the password repeat is not equel 
+                            </div>
+                            <?php
+                            }
+                            
+                           
+                       }
+                       ?>
             </form>
         </div>
     </div>
